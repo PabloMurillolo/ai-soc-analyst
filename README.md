@@ -11,7 +11,7 @@ AI SOC Analyst demonstrates the complete analyst workflow: generate telemetry, d
 Requires **Python 3.11+**. Developed and tested on macOS ARM64 with Python 3.13. The first run downloads pinned Python dependencies; subsequent runs use the local virtual environment.
 
 ```bash
-./scripts/start.sh
+bash scripts/start.sh
 ```
 
 Open **http://127.0.0.1:8000**. The first launch seeds 10 synthetic events and 3 incidents. Stop with `Ctrl+C`; SQLite preserves your decisions across restarts. No Node build, paid service, or cloud account is required.
